@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Your Review</title>
+</head>
+
+<body>
+    <center>
+        <table>
+
+            <tr>
+                <td bgcolor="lightgreen">
+                    <h2>Step 1: Account</h2>
+                </td>
+                <td bgcolor="lightgreen">
+                    <h2> Step 2: Personal details </h2>
+                </td>
+                <td bgcolor="lightblue">
+                    <h2> Step 3: Your Review </h2>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+    <form action="http://www.example.com/profile.php">
+
+        <fieldset style="width: 37pc; font-size:larger;margin-left: 450px;">
+            <legend><b>Your Review</b></legend>
+            <label>
+                How did you here about us?
+            </label>
+            <select name="Social media">
+                <option value="" disabled selected hidden>Select your option</option>
+                <option value="Facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="youtube">Youtube</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <label>
+                Would you visit again?
+            </label>
+            <br>
+            <br>
+            <input type="radio" name="radio" value="yes" /> Yes
+            <input type="radio" name="radio" value="No" /> No
+            <input type="radio" name="radio" value="maybe" /> Maybe
+            <br>
+            <br>
+            <label>
+                Comments:
+            </label>
+            <br>
+            <br>
+            <textarea name="comments" cols="38" rows="5"></textarea>
+            <br>
+            <label>
+                Documents:
+            </label>
+            <br>
+            <br>
+            <input type="file" name="userdocuments" />
+            <br>
+            <br>
+            <input type="checkbox" name="emailupdates" value="sign me up for email updates" /> Sign me up for email
+            updates
+            <br>
+            <br>
+            <a href="../Personal detail/PersonalDetail.html">
+                <img src="../back.png" height="50px" width="110px" />
+            </a>
+            <a href="../Submitpage/Submitpage.html">
+                <img src="../submit.png" height="50px" width="110px" />
+            </a>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
